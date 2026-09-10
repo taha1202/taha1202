@@ -40,6 +40,27 @@ Real outages don't heal in 50 milliseconds.
 
 ---
 
+### Anchor
+
+[`taha1202/anchor`](https://github.com/taha1202/anchor) — durable execution for
+agents.
+
+The other half of the same problem. Cascade shows you how agents die; Anchor
+keeps the work when they do. Steps get written to a log as they finish, so a
+run that gets killed at step nine restarts at step nine instead of step one.
+
+Most of the design falls out of one decision: state is derived from the log
+rather than stored next to it. Two sources of truth can disagree after a crash,
+and then you're stuck deciding which one lied. Keeping one means recovery and
+time travel are the same operation — replay everything, or replay part of it.
+
+The crash tests spawn real subprocesses that kill themselves with `os._exit()`
+mid-run. No unwinding, no cleanup, nothing flushed. Testing durability with a
+graceful shutdown would be testing nothing. CI runs those on Linux and Windows
+because the two handle process death and fsync differently.
+
+---
+
 ### Other things I've built
 
 **FraudHunt** — counterfeit listing detection using three signals at once: a CNN
