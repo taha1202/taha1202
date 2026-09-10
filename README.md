@@ -1,7 +1,7 @@
 # Muhammad Taha
 
-Software engineer in Karachi, currently at ByteCorp working on agent pipelines
-and LLM-backed applications.
+Computer science graduate in Karachi. I work on AI systems and backend
+infrastructure.
 
 The part I keep coming back to is what happens after something breaks. An agent
 whose tools quietly return the wrong answer. A pipeline that dies at step nine
@@ -45,16 +45,15 @@ Real outages don't heal in 50 milliseconds.
 on product images, transformer embeddings over review text, and PELT changepoint
 detection on rating history. The fusion caught things no single signal did.
 
-**Document extraction pipeline** at ByteCorp — pulls structured data out of long,
-messy documents. The genuinely hard part wasn't extraction, it was automating
-Microsoft Graph 2FA so the thing could run overnight without a human relaying
-codes. Analyst work that took hours now takes under ten minutes.
+**Document extraction pipeline** — pulls structured data out of long, messy
+documents. The hard part wasn't extraction, it was getting the thing to run
+overnight without a human babysitting the login step.
 
 ---
 
 ### Tools I reach for
 
-Python and FastAPI most days. C# and ASP.NET Core at work. TypeScript, React and
+Python and FastAPI most days. C# and ASP.NET Core. TypeScript, React and
 Next.js on the frontend. Postgres, MSSQL, Docker, Azure, AWS.
 
 ---
