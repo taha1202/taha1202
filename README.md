@@ -1,7 +1,8 @@
 # Muhammad Taha
 
-Computer science graduate in Karachi. I work on AI systems and backend
-infrastructure.
+Computer science graduate working as a software engineer in Karachi. I build
+AI-based products, and most of my attention these days goes to agents and the
+systems around them.
 
 The part I keep coming back to is what happens after something breaks. An agent
 whose tools quietly return the wrong answer. A pipeline that dies at step nine
