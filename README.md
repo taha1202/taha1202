@@ -4,10 +4,6 @@ Computer science graduate working as a software engineer in Karachi. I build
 AI-based products, and most of my attention these days goes to agents and the
 systems around them.
 
-The part I keep coming back to is what happens after something breaks. An agent
-whose tools quietly return the wrong answer. A pipeline that dies at step nine
-of twelve and has to start over. A fallback path that turns out to be broken
-too, because nobody ever ran it.
 
 ---
 
